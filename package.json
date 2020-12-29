@@ -1,0 +1,26 @@
+{
+   "name": "MyProject",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^8.10.66",
+      "ts-node": "^3.3.0",
+      "typescript": "^3.3.3333"
+   },
+   "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "iqphone": "^1.0.0",
+      "jsonwebtoken": "^8.5.1",
+      "pg": "^8.5.1",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "^0.2.29",
+      "validate": "^5.1.0",
+      "validate.js": "^0.13.1",
+      "validatejs": "0.0.2"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
